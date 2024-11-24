@@ -11,6 +11,11 @@ package «parsing» where
 require mathlib from git
   "https://github.com/leanprover-community/mathlib4.git"
 
+
+require batteries_extra from git
+  "https://github.com/pthomas505/batteries_extra.git" @ "main"
+
+
 @[default_target]
 lean_lib «Parsing» where
   -- add any library configuration options here
